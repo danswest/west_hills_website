@@ -1,3 +1,9 @@
+/*
+© 2026 West Hills Farm
+Website code is MIT Licensed.
+All content, images, and branding are copyrighted.
+*/
+
 // script.js
 
 const englishBtn = document.getElementById('english-btn');

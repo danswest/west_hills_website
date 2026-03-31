@@ -1,6 +1,6 @@
 # Content License
 
-Copyright © 2026 West Hills Farm (or your legal name)
+Copyright © 2026 West Hills Farm
 
 All rights reserved.
 

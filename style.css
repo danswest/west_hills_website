@@ -41,12 +41,7 @@ html {
     background-color: #ff6347;
 }
 
-/* turn menu off based on what language is selected */
-.lang.en { display: none; }
-.lang.es { display: none; }
 
-body.lang-en .lang.en { display: list-item; }
-body.lang-es .lang.es { display: list-item; }
 
 /* Navigation */
 nav {
@@ -102,6 +97,13 @@ nav ul li a:hover {
     color: #fff;
     cursor: pointer;
 }
+
+/* turn menu off based on what language is selected */
+.lang.en { display: none; }
+.lang.es { display: none; }
+
+body.lang-en .lang.en { display: list-item; }
+body.lang-es .lang.es { display: list-item; }
 
 /* Sections */
 .section {

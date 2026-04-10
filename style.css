@@ -108,16 +108,21 @@ nav ul li a:hover {
 }
 
 #home-en {
-    background-image: url("images/cover-image.jpg");
+    background-image: url("Images/cover-image.jpg");
     background-size: cover;        /* Fill the section */
     background-position: center;   /* Center the image */
     background-repeat: no-repeat;  /* Prevent tiling */
 }
+#home-es {
+    background-image: url("Images/cover-image.jpg");
+    background-size: cover;        /* Fill the section */
+    background-position: center;   /* Center the image */
+    background-repeat: no-repeat;  /* Prevent tiling */
+    
 #about-en { background-color: #e2e2e2; }
 #info-en { background-color: #cccccc; }
 #contact-en { background-color: #b3b3b3; }
 
-#home-es { background-color: #f4f4f4; }
 #about-es { background-color: #e2e2e2; }
 #info-es { background-color: #cccccc; }
 #contact-es { background-color: #b3b3b3; }

@@ -90,6 +90,22 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
+/* Hide all language menu items */
+nav ul li.lang {
+    display: none;
+}
+
+/* Show English menu items */
+body.lang-en nav ul li.en {
+    display: list-item;
+}
+
+/* Show Spanish menu items */
+body.lang-es nav ul li.es {
+    display: list-item;
+}
+
+
 /* Hamburger */
 .hamburger {
     display: none;
@@ -98,12 +114,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* turn menu off based on what language is selected */
-.lang.en { display: none; }
-.lang.es { display: none; }
-
-body.lang-en .lang.en { display: list-item; }
-body.lang-es .lang.es { display: list-item; }
 
 /* Sections */
 .section {

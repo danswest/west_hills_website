@@ -90,22 +90,6 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
-/* Hide all menu items by default */
-nav ul li {
-    display: none;
-}
-
-/* Show English menu items */
-body.lang-en nav ul li.lang-en {
-    display: list-item;
-}
-
-/* Show Spanish menu items */
-body.lang-es nav ul li.lang-es {
-    display: list-item;
-}
-
-
 /* Hamburger */
 .hamburger {
     display: none;

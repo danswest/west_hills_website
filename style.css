@@ -118,6 +118,7 @@ nav ul li a:hover {
     background-size: cover;        /* Fill the section */
     background-position: center;   /* Center the image */
     background-repeat: no-repeat;  /* Prevent tiling */
+}
     
 #about-en { background-color: #e2e2e2; }
 #info-en { background-color: #cccccc; }

@@ -115,12 +115,14 @@ nav ul li a:hover {
     background-size: cover;        /* Fill the section */
     background-position: center;   /* Center the image */
     background-repeat: no-repeat;  /* Prevent tiling */
+    color: white;
 }
 #home-es {
     background-image: url("Images/cover-image.jpg");
     background-size: cover;        /* Fill the section */
     background-position: center;   /* Center the image */
     background-repeat: no-repeat;  /* Prevent tiling */
+    color: white;
 }
     
 #about-en { background-color: #e2e2e2; }

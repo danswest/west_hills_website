@@ -185,21 +185,33 @@ section p {
         display: flex;
     }
 
-    nav ul li {
+     nav ul.show li {
+        width: 100%;
+        text-align: center;
+        margin: 0;               /* cleaner spacing */
+        padding: 12px 0;         /* clickable area */
+    }
+
+    /* Divider ONLY between visible items */
+     nav ul.show li + li {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+  /*  nav ul li {
         width: 100%;
         text-align: center;       /* Center text inside each link */
-        margin: 5px 0;            /* Small spacing between links */
-        border-bottom: 1px solid #555; /* Separator line */
-    }
+  /*      margin: 5px 0;            /* Small spacing between links */
+  /*      border-bottom: 1px solid #555; /* Separator line */
+  /*  } 
 
     nav ul li:last-child {
         border-bottom: none;      /* Remove line for last item */
-    }
+  /*  }  */
 
     nav ul li a {
         width: 100%;
         display: block;
-        padding: 12px 0;          /* Make clickable area bigger */
+        padding: 0; /* padding: 12px 0;          /* Make clickable area bigger */
     }
 
     .hamburger {

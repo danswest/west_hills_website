@@ -179,6 +179,7 @@ section p {
         background-color: #333;
         align-items: center;      /* Center links horizontally */
         padding: 10px 0;          /* Add some vertical padding */
+        display: none;
     }
 
     nav ul.show {
@@ -208,10 +209,14 @@ section p {
         border-bottom: none;      /* Remove line for last item */
   /*  }  */
 
+   nav ul:not(.show) li {
+        border: none !important;
+    }
+
     nav ul li a {
         width: 100%;
         display: block;
-        padding: 0; /* padding: 12px 0;          /* Make clickable area bigger */
+       /* padding: 12px 0;          /* Make clickable area bigger */
     }
 
     .hamburger {

@@ -118,7 +118,7 @@ nav ul li a:hover {
     color: white;
 }
 #home-es {
-    background-image: url("Images/cover-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("Images/cover-image.jpg");
     background-size: cover;        /* Fill the section */
     background-position: center;   /* Center the image */
     background-repeat: no-repeat;  /* Prevent tiling */

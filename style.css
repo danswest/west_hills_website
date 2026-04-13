@@ -112,16 +112,16 @@ nav ul li a:hover {
 
 #home-en {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("Images/cover-image.jpg");
-    background-size: cover;        /* Fill the section */
-    background-position: center;   /* Center the image */
-    background-repeat: no-repeat;  /* Prevent tiling */
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
     color: white;
 }
 #home-es {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("Images/cover-image.jpg");
-    background-size: cover;        /* Fill the section */
-    background-position: center;   /* Center the image */
-    background-repeat: no-repeat;  /* Prevent tiling */
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
     color: white;
 }
     
@@ -177,8 +177,8 @@ section p {
         width: 200px;
         display: none;
         background-color: #333;
-        align-items: center;      /* Center links horizontally */
-        padding: 10px 0;          /* Add some vertical padding */
+        align-items: center;      
+        padding: 10px 0;          
         display: none;
     }
 
@@ -188,17 +188,13 @@ section p {
 
     nav ul li {
         width: 100%;
-        text-align: center;       /* Center text inside each link */
-        margin: 5px 0;            /* Small spacing between links */
-        border-bottom: 1px solid #555; /* Separator line */
+        text-align: center;       
+        margin: 5px 0;            
+        border-bottom: 1px solid #555; 
     } 
 
     nav ul li:last-child {
         border-bottom: none;      /* Remove line for last item */
-    }
-
-   nav ul:not(.show) li {
-        border: none !important;
     }
 
     nav ul li a {

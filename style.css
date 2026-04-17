@@ -142,6 +142,11 @@ section p {
     font-size: 1.2em;
     max-width: 600px;
 }
+
+#home-en p { /* help fit whats below WEST HILLS FARM on one line */
+    max-width: none;
+    white-space: nowrap;
+}
 /* Dark transparent bubble */
 .text-bubble {
     background: rgba(0, 0, 0, 0.55); /* dark transparent */

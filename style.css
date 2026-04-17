@@ -143,7 +143,12 @@ section p {
     max-width: 600px;
 }
 
-#home-en p { /* help fit whats below WEST HILLS FARM on one line */
+#home-en p { /* help fit whats below WEST HILLS FARM on one line, same bellow for spanish section */
+    max-width: none;
+    white-space: nowrap;
+}
+
+#home-es p {
     max-width: none;
     white-space: nowrap;
 }
